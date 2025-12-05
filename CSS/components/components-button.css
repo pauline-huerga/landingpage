@@ -1,0 +1,23 @@
+
+.btn-blue {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  background-color: #F4B342; 
+  color: #ffffff;           
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);  
+  margin-top: 40px;
+
+}
+
+.btn-blue:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  color: black;
+  background-color: #F4B342; 
+}

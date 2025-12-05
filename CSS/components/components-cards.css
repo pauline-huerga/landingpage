@@ -1,0 +1,49 @@
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;          /* permet d’avoir 2 lignes */
+  justify-content: center;  /* centre les cards dans le container */
+  gap: 20px;                /* espace horizontal + vertical entre cards */
+}
+
+
+.card { 
+  background-color: rgb(255,255,255);
+  width: 800px;
+  max-width: 90%;
+  margin: 10px auto;                
+  border-radius: 12px;     
+  box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+  border-left: 4px solid #F4B342;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 250px;
+  flex-grow: 1;
+ 
+}
+
+.card img {
+  width: 150px;
+
+}
+
+.card p {
+  margin-top: 0;         
+  line-height: 1.5;     
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
